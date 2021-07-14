@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compiler-app</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="container">
+<div class='upper-part'>
+<h1 id='minutes'>25</h1>
+<h1 id ='colon'>:</h1>
+<h1 id='seconds'>00</h1>
+</div>
+<div class='middle-part'>
+    <h1 id='session'>SESSION </h1>
+
+</div>
+
+
+<hr>
+
+
+<div class='lower-part'>
+    <div class='first-part'>
+        <div class='left-part'>
+          
+            <h4 style="color: white;">Session Time</h4>
+            <div style="margin-bottom: 10px;">
+                <h2 id='startTime-minutes' style="color: #00a0b0;" >25</h2>
+                <h2  style="color: #00a0b0;display: inline-block;" >:</h2>
+                <h2 id='startTime-seconds' style="color: #00a0b0;" >00</h2>
+            </div>
+
+            <button id='startTime-minus'>-</button>
+            <button id='startTime-plus'>+</button>
+        </div>
+    <div class='right-part'>
+            <h4 style="color: white;">Break Time</h4>
+            <div style="margin-bottom: 10px;">
+                <h2 id='breakTime-minutes'style="color: #bc5c3d;">05</h2>
+                <h2  style= "display: inline-block; color:#bc5c3d ;" >:</h2>
+                <h2 id='breakTime-seconds'style="color: #bc5c3d;">00</h2>
+            </div>
+            <button  id='breakTime-minus'>-</button>
+            <button  id='breakTime-plus'>+</button>
+    </div>
+
+    </div>
+
+
+    <div class='second-part'>
+
+      
+        <button id='pause'>PAUSE</button>
+   
+
+        <button id='reset'>RESET</button>
+
+
+    </div>
+</div>
+<button id='start'>START</button>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
